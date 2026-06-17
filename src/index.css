@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #034203;
+  --color-forest-dark: #022902;
+  --color-sage-light: #e8e9de;
+  --color-sage-mid: #baba82;
+  --color-heart: #a40a0a;
+  --color-muted: #615f5f;
+  --color-cream: #f5f2f2;
+  --color-btn: #e3e4d2;
+  --color-btn-hover: #c9c9a8;
+
+  --font-display: "Birthstone", cursive;
+}
+
+@layer base {
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+@apply m-0 min-h-screen font-sans antialiased;
+background-color: #e2e2d8;  }
+}

@@ -1,0 +1,45 @@
+.splashParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: linear-gradient( #baba82  , #e8e9de); */
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.p {
+    color: rgb(97, 95, 95);
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.headLine {
+  font-family: "Birthstone", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 80px;
+  margin: 0;
+  color: rgb(3, 66, 3); 
+}
+
+.icon {
+    color: rgb(164, 10, 10);
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.bar {
+ font-size: 30px;
+ font-style: italic;
+ font-weight: 200;
+}
+
+
+.foot {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+}

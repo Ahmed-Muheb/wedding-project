@@ -1,0 +1,48 @@
+
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.head {
+    font-family: "Birthstone", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+    color: rgb(3, 66, 3);
+}
+
+.title {
+    color: rgb(97, 95, 95);
+    font-size: 25px;
+    margin: 0;
+}
+
+
+.large .head{
+    font-size: 60px;
+}
+
+.large .title{
+    font-size: 25px;
+}
+
+.small .head{
+    font-size: 45px;
+}
+
+.small .title{
+    font-size: 20px;
+}

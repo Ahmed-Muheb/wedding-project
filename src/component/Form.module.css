@@ -1,0 +1,72 @@
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 30%;
+    margin: 5px auto;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 20px 30px;
+
+}
+
+form label {
+    color: rgb(3, 66, 3);
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+form input,
+textarea {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(245, 242, 242);
+    border: none;
+    margin: 10px 5px;
+}
+
+.specInput {
+    height: 120px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+form p {
+    font-size: 20px;
+    margin: 0;
+}
+
+form button {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    min-width: 100%;
+    background-color: #e3e4d2;
+}
+
+form button:hover {
+ background-color: #c9c9a8;
+}
+
+.signatureCanvas {
+    width: 100%;
+    height: 200px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+
+    background-color: rgb(245, 242, 242);
+}
+
+.clearBtn {
+    margin: 10px auto;
+}
