@@ -10,7 +10,6 @@ function ThankYou() {
         className="relative mx-auto max-w-sm overflow-hidden"
         style={{ backgroundColor: '#e2e2d8', minHeight: '350px' }}
       >
-        {/* النص في الأعلى */}
         <div className="flex flex-col items-center px-8 pt-30 pb-6 text-center">
           <h2
             style={{
@@ -36,17 +35,29 @@ function ThankYou() {
             Hosted by
           </p>
           <p
-  style={{
-    fontFamily: "'Tiro Kannada', serif",
-    fontSize: '1.1rem',
-    fontWeight: 700,
-    color: '#2d3748',
-    letterSpacing: '0.08em',
-    margin: 0,
-  }}
->
-  MANAR &amp; HADI
-</p>
+            style={{
+              fontFamily: "'Tiro Kannada', serif",
+              fontSize: '1.1rem',
+              fontWeight: 700,
+              color: '#2d3748',
+              letterSpacing: '0.08em',
+              margin: 0,
+            }}
+          >
+            MANAR &amp; HADI
+          </p>
+
+          {/* السطر الجديد */}
+          <p
+            style={{
+              fontSize: '0.78rem',
+              color: '#752335',
+              marginTop: '0.5rem',
+              letterSpacing: '0.04em',
+            }}
+          >
+            Created by Ahmed Moheb &amp; Manar Moheb
+          </p>
         </div>
       </div>
     </section>

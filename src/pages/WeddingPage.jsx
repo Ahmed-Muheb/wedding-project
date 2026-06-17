@@ -13,10 +13,10 @@ function WeddingPage() {
 
  return (
   <main>
-    <HeroImage />
+    <SaveTheDate />
     
     <div data-aos="fade-up">
-      <SaveTheDate />
+    <HeroImage />
     </div>
     
     <div data-aos="fade-up">
