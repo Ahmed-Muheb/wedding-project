@@ -37,7 +37,7 @@ function DateCircle({ value, delay }) {
       ref={ref}
 className="relative flex h-[90px] w-[90px] items-center justify-center overflow-hidden rounded-full border border-forest bg-white text-xl sm:h-[100px] sm:w-[100px] sm:text-2xl"    >
       <span
-        className={`relative z-10 transition-colors duration-500 ${
+        className={`relative z-10 transition-colors duration-4000 ${
           revealed ? 'text-forest' : 'text-transparent'
         }`}
       >
