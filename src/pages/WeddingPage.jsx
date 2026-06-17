@@ -11,19 +11,37 @@ import HeroImage from '../components/HeroImage'
 function WeddingPage() {
   const { wishes, loading, submitWish, error } = useWishes()
 
-  return (
-    <main >
-      <HeroImage />
+ return (
+  <main>
+    <HeroImage />
+    
+    <div data-aos="fade-up">
       <SaveTheDate />
+    </div>
+    
+    <div data-aos="fade-up">
       <CountDown />
+    </div>
+    
+    <div data-aos="fade-up">
       <LocationSection />
+    </div>
+    
+    <div data-aos="fade-up">
       <AttendanceForm submitWish={submitWish} error={error} />
+    </div>
+    
+    <div data-aos="fade-up">
       <MessagesSection wishes={wishes} loading={loading} />
+    </div>
+    
+    <div data-aos="fade-up">
       <ThankYou />
-      <BackgroundFooter />
-
-    </main>
-  )
+    </div>
+    
+    <BackgroundFooter />
+  </main>
+)
 }
 
 export default WeddingPage

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import SplashScreen from './components/SplashScreen'
 import WeddingPage from './pages/WeddingPage'
 
+
 function App() {
   const [showSplash, setShowSplash] = useState(true)
 
